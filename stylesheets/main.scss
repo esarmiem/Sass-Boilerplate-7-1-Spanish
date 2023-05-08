@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers / 1. Configuración y ayudantes
+@import
+'abstracts/variables', // variables abstractas
+'abstracts/functions', // funciones abstractas
+'abstracts/mixins'; // mixins abstractos
+
+// 2. Vendors / 2. Proveedores
+@import
+'vendors/normalize'; // normalizar
+
+// 3. Base stuff / 3. Elementos base
+@import
+'base/base', // base
+'base/fonts', // fuentes
+'base/typography', // tipografía
+'base/helpers'; // ayudantes
+
+// 4. Layout-related sections / 4. Secciones relacionadas con el diseño
+@import
+'layout/header', // encabezado
+'layout/footer'; // pie de página
+
+// 5. Components / 5. Componentes
+@import
+'components/button'; // botón
+
+// 6. Page-specific styles / 6. Estilos específicos de la página
+@import
+'pages/home'; // página de inicio
+
+// 7. Themes / 7. Temas
+@import
+'themes/default'; // predeterminado
