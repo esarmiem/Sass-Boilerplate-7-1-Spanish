@@ -27,3 +27,6 @@ ejecutar el comando de construcción desde la línea de comandos:
 ```bash
 sass stylesheets/main.scss dist/main.css
 ```
+Recuerda que también puedes usar la extensión de Sass de visual studio code :)
+
+by: Elder sarmiento
